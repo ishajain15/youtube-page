@@ -1,0 +1,23 @@
+html, body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#search-box {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #D9D9D9;
+    padding: 0 10px;
+}
+
+#youtube-home {
+    background-image: url("https://i.ya-webdesign.com/images/youtube-logo-2016-png-8.png");
+    background-size: 50px 10 px;
+}

@@ -2,8 +2,21 @@
 <html>
     <head>
         <title>YouTube</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
     </head>
     <body>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rwAzSupGjmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id = "wrapper">
+            <div class = "header">
+                <ul>
+                    <li id = "youtube-home"></li>
+                </ul>
+                    <form id = "search-form">
+                        <center>
+                            <input type = "text" name = "search" id = "search-box">
+                        </center>
+                    </form>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rwAzSupGjmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </body>
 </html>
