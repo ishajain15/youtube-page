@@ -40,7 +40,7 @@ a {
     text-decoration: none;
     color: rgb(96, 96, 96);
 }
-/*
+
 .nav-main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
     height: 6rem;
@@ -50,23 +50,7 @@ a {
     z-index: 100;
     background-color: white;
 }
-*/
-.nav-main {
-  width: 100%;
-  height: 56px;
-  background-color: white;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.03);
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 30px;
-  color: #aaa;
-  font-size: 1.2rem;
-}
+
 
 .nav-bar ul {
     list-style: none;
@@ -95,26 +79,7 @@ a {
     margin-left: 1rem;
   }
   
-  .search-nav li {
-    display: flex;
-    align-items: center;
-  }
-  
-  .search-nav input {
-    width: 60rem;
-    height: 3rem;
-    padding-left: 1rem;
-  }
-  
-  .search-nav i {
-    background-color: white;
-    outline: none;
-    font-size: 2rem;
-    margin-left: -5rem;
-    background-color: white;
-    border: none;
-  
-  }
+
   
   .right-nav {
     display: flex;
@@ -145,3 +110,19 @@ a {
     text-align: center;
     color: #FFF;
   }
+
+#search-bar{
+    width: 540px;
+    height: 34px;
+    background-color: white;
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    border-radius: 2px;
+    padding-left: 10px;
+}
+#search-button{
+    width: 60px;
+    height: 34px;
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    border-radius: 2px;
+}

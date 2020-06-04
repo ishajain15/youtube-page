@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>YouTube</title>
-        <link rel = "stylesheet" type = "text/css" href = "style.css">
-    </head>
-    <body>
-        <div nav-main>
-            <div class = "nav-bar">
-                <ul class = "left-nav">
-                    <li class = "dropdown">
-                        <i class = "bars"></i>
-                    <li>
-                        <a href = "#youtube">
-                            <img src = "https://www.scottbuckley.com.au/wp-content/uploads/transparent-background-youtube-logo-4.png",
-                            alt = "logo">
-                        </a>
-                    </li>
-                </ul>
 
-                <ul class = search-nav>
-                    <li>
-                        <input class = "input-search" type = "text" name = "Search" placeholder = "Search" />
-                        <button><i class="search button"></i></button>
-                    </li>
-                </ul>
+<head>
+    <title>YouTube</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-                <ul class = right-nav>
-                    <li>
-                        <a href = "#"><i class = "video"></i></a>
-                    </li>
-                    <li>
-                        <a href = "#"><i class = "apps"></i></a>
-                    </li>
-                    <li>
-                        <a href = "#"><i class = "notifications"></i></a>
-                    </li>
-                    <li id = "user"><div id = "initial">I</div></li>
-                </ul>
-            </div>
+<body>
+    <div nav-main>
+        <div class="nav-bar">
+            <ul class="left-nav">
+                <a href="#menu">
+                    <img src="images/menu.png" alt="menu">
+                </a>
+                <a href="#youtube">
+                    <img src="images/youtube logo.png" , alt="logo">
+                </a>
+                </li>
+            </ul>
+
+            <ul class=search-nav>
+                <li>
+                    <input id="search-bar" type="search" placeholder="Search">
+                    <button id="search-button" class="weak" type="submit" value="Submit">
+                        <img class="button auto-margin" src="images/magnifier.png" alt="Search button">
+                    </button>
+                </li>
+            </ul>
+
+            <ul class=right-nav>
+                <li>
+                    <a href="#">
+                        <img src="images/new_vid.png" alt="new vid">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/apps.png" alt="apps">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/notification.png" alt="notification">
+                    </a>
+                </li>
+                <li id="user">
+                    <div id="initial">I</div>
+                </li>
+            </ul>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rwAzSupGjmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </body>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rwAzSupGjmo" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
 </html>
