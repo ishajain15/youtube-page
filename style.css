@@ -22,7 +22,6 @@ i {
   font-size: 2.4rem;
 }
 
-/*--Typography--*/
 h1 {
   font-size: 2.2rem;
 }
@@ -32,7 +31,6 @@ h3 {
   font-weight: 500;
 }
 
-/*--Main Container--*/
 main {
   display: flex;
   padding: 3rem 3rem;
@@ -44,8 +42,6 @@ a {
   color: rgb(96, 96, 96);
 }
 
-
-/*--Navigation styles--*/
 .header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
   height: 6rem;
@@ -110,17 +106,9 @@ a {
   align-items: center;
 }
 
-.right-nav img {
-  width: 3.2rem;
-  height: 3.2rem;
-  border-radius: 50%;
-}
-
 .right-nav li {
   margin-right: 2rem;
 }
-
-/*--Video Section--*/
 
 header{
   display: flex;
@@ -217,8 +205,6 @@ header{
   text-decoration: none;
 }
 
-/*--Video Recommendations--*/
-
 aside{
   margin-left: 2rem;
 }
@@ -246,34 +232,6 @@ aside{
   align-self: center;
   margin-left: 1rem;
 }
-
-.video__container div:first-child {
-  padding-bottom: 1.5rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.video-box {
-  display: flex;
-  padding: .5rem 1rem;
-  padding-left: 0;
-}
-
-.video-box__thumbnail{
-  width: 26.8rem;
-  height: 9.4rem;
-  margin-right: 1rem;
-}
-
-.video-box__details p{
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: darkgray;
-  margin: 0.5rem 0;
-}
-
-/* FIX: Change the position */
-/*--Comments--*/
 
 .comment-stats{
   display: flex;
@@ -307,14 +265,6 @@ aside{
   font-size: 1.4rem;
 }
 
-.comment__display img {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  margin: 0 .5rem;
-  margin-right: 1.5rem;
-}
-
 .details > * {
   margin-bottom: 1.5rem;
 }
@@ -323,18 +273,12 @@ aside{
   margin-left: 1rem;
 }
 
-.section__controls > * {
+.section-controls > * {
   margin-right: 1rem;
 }
 
-.section__controls i {
+.section-controls i {
   font-size: 1.4rem;
-}
-
-
-.chevron{
-  font-size: 1rem;
-
 }
 
 #user-menu {
