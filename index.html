@@ -1,174 +1,364 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
-        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Youtube</title>
+    <meta charset="utf-8">
+    <title>Marvel Studios' Avengers: Endgame - Official Trailer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" type="image/x-icon">
 </head>
 
 <body>
-    <nav class="header">
-        <ul class="nav">
-            <ul class="left-nav">
-                <li>
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </li>
-                <li>
-                    <a href="#"><img src="images/youtube logo.png" alt="Youtube logo" /></a>
-                </li>
-            </ul>
 
-            <ul class="search-nav">
-                <li>
-                    <input class="input-search" type="text" name="Search" placeholder="Search" />
-                </li>
-            </ul>
+    <div class='container' id='navbar'>
 
-            <ul class="right-nav">
-                <li>
-                    <a href="#"><i class="fas fa-video"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fas fa-th"></i></a>
-                </li>
+        <ul>
+            <div id='left_navbar'>
 
-                <li>
-                    <a href="#"><i class="fas fa-bell"></i></a>
-                </li>
+                <li><a href='#'><i class="material-icons">menu</i></a></li>
 
-                <li id="user-menu">
-                    <div id="user-initial">I</div>
-                </li>
-            </ul>
+                <li><a href='#'><img src='images/youtube logo.png' alt='Youtube' width="75px" height="20px"></a></li>
+
+                <form>
+                    <input type='text' placeholder="Search">
+                    <button type="submit"><i class="material-icons">search</i></button>
+                </form>
+            </div>
+
+            <div id='right_navbar'>
+                <li><a href='#'><i class="material-icons">video_call</i></a></li>
+
+                <li><a href='#'><i class="material-icons">apps</i></a></li>
+
+                <li><a href='#'><i class="material-icons">notifications</i></a></li>
+
+                <li><a href='#'><img src='images/avatar.png' alt='Avatar' width="32px" height="32px"
+                            class='account_avatar'></a></li>
+            </div>
+
         </ul>
-    </nav>
 
-    <main>
-        <article>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <header>
-                <div class="video-stats">
-                    <h1 class="video-title">
-                        Marvel Studios' Avengers: Endgame - Official Trailer
-                    </h1>
-                    <p>135,116,340 views•Mar 14, 2019</p>
-                </div>
+    </div>
+    <!--$ -------------- -->
 
-                <nav class="video-nav">
-                    <a href="#"><i class="fas fa-thumbs-up"></i>2.9M</a>
-                    <a href="#"><i class="fas fa-thumbs-down"></i>59K</a>
-                    <a href="#"><i class="fas fa-share"></i>SHARE</a>
-                    <a href="#"><i class="fas fa-list"></i>SAVE</a>
-                    <a href="#"><i class="fas fa-ellipsis-h"></i></a>
-                </nav>
-            </header>
+    <!--$ Video main content -->
+    <div class='container' id='video_content'>
 
-            <section class="video-description">
-                <img src="images/channelpic.jpg" alt="User profile picture" />
+        <!--% Video player-->
+        <div id='video_player'>
 
-                <div class="video-creator">
-                    <h2>Marvel Entertainment</h2>
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class='video_information'>
+                <p class='video_title'>Marvel Studios' Avengers: Endgame - Official Trailer</p>
 
-                    <p class="published">13.9M subscribers</p>
+                <div class='video_options'>
+                    <p class='video_info_text'>135,117,494 views • Mar 14, 2019</p>
 
-                    <p>
-                        Whatever it takes. Watch the brand-new trailer for Marvel Studios’ Avengers: Endgame. In theaters April 26.
-                    </p>
+                    <div id='options_right'>
+                        <ul>
+                            <div id='likes_ration'>
+                                <li class='liked'><i class="material-icons">thumb_up</i><span>2.9M</span></li>
+                                <li><i class="material-icons">thumb_down</i><span>59K</span></li>
 
-                    <a href="" class="showmore">show more</a>
-                </div>
+                                <div id='likes_meter'><span style="width: 97%;"></span></div>
+                            </div>
 
-                <a class="subscribe">subscribe</a>
-            </section>
-
-            <section class="comments">
-
-                <div class="comment-stats">
-                    <p>262,697 Comments</p>
-                    <a href="#"><i class="fas fa-align-left"></i> SORT BY</a>
-
-                </div>
-
-                <div class="comment-box">
-                    <li id="user-menu">
-                        <div id="user-initial">I</div>
-                    </li>
-                    <input type="text" placeholder="Add a public comment...">
-                </div>
-
-
-                <div class="comment">
-                    <li id="commentor-1">
-                        <div id="user-initial">P</div>
-                    </li>
-                    <div class="details">
-                        <h4 class="author">Peter Parker<span> 3 years ago</span></h4>
-                        <p>Mr. Stark, I don't feel so good</p>
-                        <div class="section-controls">
-                            <a href="#"><i class="fas fa-thumbs-up"></i> 30K</a>
-                            <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                            <a href="#">REPLY</a>
-                        </div>
-                        <a href="#">View 4.5K Replies <i class="fas fa-chevron-down chevron"></i></a>
-                    </div>
-                </div>
-                <div class="comment">
-                    <li id="commentor-2">
-                        <div id="user-initial">T</div>
-                    </li>
-                    <div class="details">
-                        <h4 class="author">Tony Stark<span> 1 year ago</span></h4>
-                        <p>I love you 3000</p>
-                        <div class="section-controls">
-                            <a href="#"><i class="fas fa-thumbs-up"></i> 1.2M</a>
-                            <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                            <a href="#">REPLY</a>
-                        </div>
-                        <a href="#">View 96.4K Replies <i class="fas fa-chevron-down chevron"></i></a>
-                    </div>
-                </div>
-                <div class="comment">
-                    <li id="commentor-3">
-                        <div id="user-initial">S</div>
-                    </li>
-                    <div class="details">
-                        <h4 class="author">Steve Rogers<span> 1 year ago</span></h4>
-                        <p>So, your body’s changing. Believe me, I know how that feels.</p>
-                        <div class="section-controls">
-                            <a href="#"><i class="fas fa-thumbs-up"></i> 67K</a>
-                            <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                            <a href="#">REPLY</a>
-                        </div>
-                        <a href="#">View 15.7K Replies <i class="fas fa-chevron-down chevron"></i></a>
+                            <li><i class="material-icons rotate_icon">reply</i><span>SHARE</span></li>
+                            <li><i class="material-icons">playlist_add</i><span>SAVE</span></li>
+                            <li><i class="material-icons">more_horiz</i></li>
+                        </ul>
                     </div>
                 </div>
 
-            </section>
 
-        </article>
+                <div id='video_description'>
 
-        <aside>
-            <div class="vid-controls">
-                <p>Up Next</p>
-                <div class="autoplay">
-                    <i class="fas fa-toggle-on"></i>
-                    <p>AUTOPLAY</p>
+                    <div id='channel_info'>
+                        <img src='images/channelpic.jpg' alt='Avatar' width="48px" height="48px" class='account_avatar'>
+
+                        <div id='name_and_subs'>
+                            <p>Marvel Entertainment</p><br>
+                            <p>13.9M subscribers</p>
+                        </div>
+
+                        <div class='right' id='channel-right'>
+                            <button class='subscribe'>SUBSCRIBE</button>
+                            <!-- <i class="material-icons">notifications_none</i> -->
+                        </div>
+
+                    </div>
+
+                    <div id='channel_description'>
+                        <p>Whatever it takes. Watch the brand-new trailer for Marvel Studios’ Avengers: Endgame. In
+                            theaters April 26.</p><br>
+                        <p class='show_more'>SHOW MORE</p><br>
+                    </div>
+
                 </div>
             </div>
 
-        </aside>
+        </div>
 
-    </main>
+        <div id='video_comments'>
+
+            <p id='total_comments'>262,700 Comments</p>
+            <span id='sort_by'><i class="material-icons">sort</i><span>SORT BY</span></span>
+
+            <form id='comment_form'>
+                <img src='images/avatar.png' alt='Avatar' width="32px" height="32px" class='account_avatar'>
+                <input type='text' placeholder="Add a public comment...">
+            </form>
+
+            <div class='comment'>
+                <img src='images/tony stark.jpg'
+                    alt='Avatar' width="32px" height="32px" class='account_avatar'>
+                <div class='comment_info'>
+                    <p class='comment_username'>Tony Stark <span>1 year ago</span></p>
+                    <p class='comment_text'>I love you 3000</p>
+
+                    <ul class='comment_stats'>
+                        <li><i class="material-icons">thumb_up</i><span>1.4M</span></li>
+                        <li><i class="material-icons">thumb_down</i><span></span></li>
+                        <li><span>REPLY</span></li>
+                    </ul>
+
+                    <p class='view-replies'><i class="material-icons">arrow_drop_down</i>View 94.6K replies</p>
+                </div>
+
+                <div class='clear'></div>
+            </div>
+
+            <div class='comment'>
+                <img src='images/steve rogers.png'
+                    alt='Avatar' width="32px" height="32px" class='account_avatar'>
+                <div class='comment_info'>
+                    <p class='comment_username'>Steve Rogers <span>11 months ago</span></p>
+                    <p class='comment_text'>So, your body’s changing. Believe me, I know how that feels.</p>
+
+                    <ul class='comment_stats'>
+                        <li><i class="material-icons">thumb_up</i><span>60K</span></li>
+                        <li><i class="material-icons">thumb_down</i><span></span></li>
+                        <li><span>REPLY</span></li>
+                    </ul>
+
+                    <p class='view-replies'><i class="material-icons">arrow_drop_down</i>View 15.7K replies</p>
+                </div>
+
+                <div class='clear'></div>
+            </div>
+
+            <div class='comment'>
+                <img src='images/groot.jpg'
+                    alt='Avatar' width="32px" height="32px" class='account_avatar'>
+                <div class='comment_info'>
+                    <p class='comment_username'>Groot <span>1 month ago</span></p>
+                    <p class='comment_text'>I am Groot.</p>
+
+                    <ul class='comment_stats'>
+                        <li><i class="material-icons">thumb_up</i><span>26.8K</span></li>
+                        <li><i class="material-icons">thumb_down</i><span></span></li>
+                        <li><span>REPLY</span></li>
+                    </ul>
+
+                    <p class='view-replies'><i class="material-icons">arrow_drop_down</i>View 9.9K replies</p>
+                </div>
+
+                <div class='clear'></div>
+            </div>
+
+            <div class='comment'>
+                <img src='images/scott lang.jpg'
+                    alt='Avatar' width="32px" height="32px" class='account_avatar'>
+                <div class='comment_info'>
+                    <p class='comment_username'>Scott Lang <span>1 month ago</span></p>
+                    <p class='comment_text'>Does anybody have any orange slices?</p>
+
+                    <ul class='comment_stats'>
+                        <li><i class="material-icons">thumb_up</i><span>15.9K</span></li>
+                        <li><i class="material-icons">thumb_down</i><span></span></li>
+                        <li><span>REPLY</span></li>
+                    </ul>
+
+                    <p class='view-replies'><i class="material-icons">arrow_drop_down</i>View 5.3K replies</p>
+                </div>
+
+                <div class='clear'></div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class='container' id='videos_playlist'>
+
+        <p class='inline up_next'>Up next</p>
+        <div class='right'>
+            <p class='up_next inline'>AUTOPLAY</i></p>
+            <div id='playlist_toggle' class='inline'>
+                <i class="material-icons">lens</i>
+            </div>
+        </div>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail1.PNG" width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Avengers - Official Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>101M views • 1 year ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail2.PNG" width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Avengers Endgame | Special Look</p>
+                <p>Marvel Entertainment</p>
+                <p>28M views • 1 year ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail3.PNG" width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Avengers: Infinity War Official Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>237M views • 2 years ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail4.PNG" width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Avengers: Endgame | "To the End"</p>
+                <p>Marvel Entertainment</p>
+                <p>32M views • 1 year ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail5.PNG" width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios" Black Widow | Final Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>16M views • 2 months ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail6.PNG" width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>How Avengers Endgame Should Have Ended</p>
+                <p>How It Should Have Ended</p>
+                <p>Recommended for you</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail7.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Captain Marvel - Official Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>59M views • 1 year ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail8.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Avengers: Infinity War - Official Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>98M views • 2 years ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail9.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Black Widow - Official Teaser Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>42M views • 6 months ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail10.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>SPIDER-MAN: FAR FROM HOME - Official Trailer</p>
+                <p>Sony Pictures Entertainment</p>
+                <p>80M views • 1 year ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail11.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel's Captain America: Civil War - Trailer 2</p>
+                <p>Marvel Entertainment</p>
+                <p>84M views • 4 years ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail12.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Marvel Studios' Black Panther - Official Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>45M views • 2 years ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail13.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>"Thor: Ragnarok" Official Trailer</p>
+                <p>Marvel Entertainment</p>
+                <p>75M views • 2 years ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail14.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Doctor Strange Official Trailer 2</p>
+                <p>Marvel Entertainment</p>
+                <p>41M views • 3 years ago</p>
+            </div>
+        </a>
+
+        <a href="#" class='recommend_video'>
+            <img src="images/thumbnail15.PNG"
+                width="168" height="94" class='video_thumbnail'>
+
+            <div class='recv_info'>
+                <p>Iron Man Vs Thanos - Fight Scene - Avengers Infinity War...</p>
+                <p>BestClips</p>
+                <p>101M views • 1 year ago</p>
+            </div>
+        </a>
+    </div>
 </body>
-
 </html>
