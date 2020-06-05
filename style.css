@@ -42,11 +42,11 @@ table {
     #navbar  input[type='text']{
        width: 350px;
     }
-    #left_navbar{
+    #left-navbar{
         width: 75%;
     }
 
-    #video_content{
+    #video-content{
         float: left;
         width: 100%;
         padding-left: 10px;
@@ -67,7 +67,7 @@ table {
     #navbar  input[type='text']{
        width: 280px;
     }
-    #left_navbar{
+    #left-navbar{
         width: 70%;
     }
 }
@@ -76,30 +76,30 @@ table {
     #navbar  form{
        display: none;
     }
-    #left_navbar{
+    #left-navbar{
         width: auto;
     }
 }
 @media only screen and (max-width: 660px){
 
-    #video_player iframe{
+    #video-player iframe{
         height: 400px;
     }
-    #options_right ul li{
+    #options-right ul li{
         margin: 0 4px;
     }
-    #options_right {
+    #options-right {
         padding-top: 3px;
     }
-    #options_right ul li span{
+    #options-right ul li span{
         margin-left: 3px;
         font-size: 12px;
         vertical-align: 2px;
     }
-    #options_right i{
+    #options-right i{
         font-size: 16px;
     }
-    .video_info_text{
+    .video-info-text{
         font-size: 14px;
     }
 
@@ -129,18 +129,18 @@ table {
     #navbar ul li{
         margin: 5px 2px;
     }
-    #left_navbar{
+    #left-navbar{
         padding-top: 4px;
     }
 
-    #video_player iframe{
+    #video-player iframe{
         height: 260px;
     }
-    #options_right{
+    #options-right{
         float: none;
         margin-top: 10px;
     }
-    .video_options{
+    .video-options{
         padding-bottom: 0;
     }
 
@@ -228,65 +228,65 @@ body{
 #navbar input::placeholder { 
     color: #797979;  
 }
-.account_avatar{
+.account-avatar{
     border-radius: 50%
 }
-#left_navbar{
+#left-navbar{
     float: left;
     width: 70%;
 }
-#left_navbar li{
+#left-navbar li{
     margin-top: 8px !important;
 }
-#left_navbar img{
+#left-navbar img{
    padding-bottom: 2px !important;
 }
-#right_navbar{
+#right-navbar{
     float: right
 }
 
-#video_content{
+#video-content{
     padding-top: 25px;
     padding-left: 30px;
     width: 65%;
     float: left;
     margin-top: 44.5px;
 }
-.video_information{
+.video-information{
     margin: 12px 0;
     border-bottom: 1px solid #e7e7e7; 
 }
-.video_information .video_title{
+.video-information .video-title{
     margin: 10px 0;
 }
-.video_title{
+.video-title{
     font-size: 20px;
 }
-.video_options{
+.video-options{
     margin: 10px 0;
     padding-bottom: 20px;
     border-bottom: 1px solid #e7e7e7;
 }
-#options_right{
+#options-right{
     display: block; 
     float: right;
 }
-#options_right ul{
+#options-right ul{
     display: inline-block;
     margin-top: -5px;
 }
-#options_right i{
+#options-right i{
     font-size: 20px;
 }
-#options_right ul li{
+#options-right ul li{
     display: inline-block;
     color: #909090;
     margin: 0 10px;
 }
-#options_right ul li:hover{
+#options-right ul li:hover{
     cursor: pointer;
 }
-#options_right ul li span{
+#options-right ul li span{
     font-size: 15px;
     color: #909090;
     vertical-align: 5px;
@@ -294,16 +294,16 @@ body{
     vertical-align: 5px;
     font-weight: 600; 
 }
-#likes_ration{
+#likes{
     display: inline-block;
 }
-#likes_meter{
+#likes-meter{
     margin-top: 18px;
     width: 100%;
     background-color: #efefef;
     height: 2px;
 }
-#likes_meter span{
+#likes-meter span{
     display: block;
     background-color: #065fd4;
     height: 2px;
@@ -314,7 +314,7 @@ body{
 .liked span{
     color: #065fd4 !important;
 }
-.video_info_text{
+.video-info-text{
     font-size: 17px;
     color: #606060;
     display: inline-block;
@@ -382,7 +382,7 @@ body{
     margin-top: 10px;
     padding-bottom: 50px;
 }
-#comment_form .account_avatar{
+#comment_form .account-avatar{
     float: left;
 }
 #comment_form input[type='text']{
@@ -406,7 +406,7 @@ body{
     float: left;
 }
 
-.comment .account_avatar{
+.comment .account-avatar{
     float: left;
 }
 .comment_info{
