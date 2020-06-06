@@ -52,12 +52,12 @@ table {
         padding-left: 10px;
     }
 
-    #videos_playlist{
+    #videos-playlist{
         float: left;
         width: 100%;
         margin-top: 5px;
     }
-    .recv_info{
+    .rec-info{
         width: calc(75% - 5vw);
     }
 
@@ -103,7 +103,7 @@ table {
         font-size: 14px;
     }
 
-    .recv_info{
+    .rec-info{
         width: calc(75% - 5vw)
     }
 }
@@ -120,7 +120,7 @@ table {
         margin-left: 5px;
     }
 
-    .recv_info{
+    .rec-info{
         width: calc(55% - 5vw)
     }
 }
@@ -144,17 +144,17 @@ table {
         padding-bottom: 0;
     }
 
-    .recv_info p:first-child{
+    .rec-info p:first-child{
         font-size: 14px;
     }
-    .recommend_video{
+    .recommend-video{
         font-size: 12px;
         height: 85px;
     }
-    .recommend_video p{
+    .recommend-video p{
         margin-bottom: 3px;
     }
-    .recommend_video img{
+    .recommend-video img{
         width: 140px;
         height: 85px;
     }
@@ -453,7 +453,7 @@ body{
     vertical-align: -7px;
 }
 
-#videos_playlist{
+#videos-playlist{
     margin-top: 59.5px;
     width: 35%;
     float: right;
@@ -461,18 +461,18 @@ body{
 .inline{
     display: inline;
 }
-#videos_playlist .up_next{
+#videos-playlist .up-next{
     font-size: 16px;
 }
 
-#videos_playlist .right p{
+#videos-playlist .right p{
     color: #909090;
     font-weight: 600;
 }
-.up_next{
+.up-next{
     font-size: 16px;
 }
-#playlist_toggle{
+#playlist-toggle{
     display: inline-block;
     width: 32px;
     height: 14px;
@@ -481,20 +481,20 @@ body{
     position: relative;
     z-index: -1;
 }
-#playlist_toggle i{
+#playlist-toggle i{
     font-size: 22px;
     position: absolute;
     top: -4px;
     left: -1px;
     color: #909090;
 }
-#videos_playlist hr{
+#videos-playlist hr{
     height: 1px;
     border: none;
     background-color: #303030;
     margin: 15px 0;
 }
-.recommend_video{
+.recommend-video{
     display: block;
     margin: 12px 0;
     height: 94px;
@@ -502,18 +502,18 @@ body{
     outline : none;
     font-size: 14px;
 }
-.recommend_video p{
+.recommend-video p{
     margin-bottom: 6px;
 }
-.video_thumbnail{
+.video-thumbnail{
     float: left;
 }
-.recv_info{
+.rec-info{
     float: left;
     margin-left: 8px;
     width: calc(60% - 3vw);
 }
-.recv_info p:first-child{
+.rec-info p:first-child{
     color: #303030;
     font-size: 16px;
 }
